@@ -4,12 +4,8 @@ pipeline {
         stage('Test') {
             steps {
                 echo 'test in first step'
+                sayHello 'Pravin'
             }
-        }
-    }
-    post {
-        always {
-            sayHello 'Pravin'
         }
     }
 }
