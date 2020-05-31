@@ -1,3 +1,7 @@
+libraries {
+  lib('shared-lib')
+}
+
 pipeline {
     agent any
     stages {
