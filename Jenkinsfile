@@ -4,7 +4,7 @@ pipeline {
         stage('Test') {
             steps {
                 echo 'test in first step'
-                sayHello("Pravin")
+                sayHello 'Dave'
                 }
         }
     }
