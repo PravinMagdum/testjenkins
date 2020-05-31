@@ -5,7 +5,7 @@ pipeline {
             steps {
                 echo 'test in first step'
                 script{
-                sayHello.call()
+                sayHello 'Pravin'
                 }
             }
         }
